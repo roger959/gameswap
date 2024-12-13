@@ -1,0 +1,188 @@
+/* Style de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000; /* Noir */
+    color: #fff; /* Blanc pour le texte */
+    background-image: none; /* Supprime l'image de fond */
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #111; /* Noir légèrement plus clair */
+    color: #fff; /* Blanc pour le texte du header */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espace entre le logo et le texte */
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    color: #ff6347; /* Rouge pour le titre */
+}
+
+header .logo p {
+    font-size: 1rem;
+    font-style: italic;
+    color: #fff; /* Blanc pour le sous-titre */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ff6347; /* Rouge pour les liens */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    text-decoration: none;
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #111; /* Noir légèrement plus clair */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ff6347; /* Rouge pour les titres des sections */
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    background-color: #222; /* Noir légèrement plus clair pour les services */
+    padding: 1rem;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    color: #fff; /* Blanc pour le texte des services */
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ff6347; /* Rouge pour les titres des services */
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+}
+
+.member {
+    text-align: center;
+}
+
+.member h3 {
+    font-size: 1.5rem;
+    color: #ff6347; /* Rouge pour les noms des membres */
+}
+
+form .form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espace entre le logo et le champ texte */
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #222; /* Noir légèrement plus clair pour les champs */
+    color: #fff; /* Blanc pour le texte des champs */
+}
+
+form button {
+    background-color: #ff6347; /* Rouge pour le bouton */
+    color: #fff; /* Blanc pour le texte du bouton */
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff6347; /* Rouge foncé pour le bouton au survol */
+}
+
+/* Footer */
+footer {
+    background-color: #111; /* Noir légèrement plus clair */
+    color: #fff; /* Blanc pour le texte du footer */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+#legal {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #111; /* Fond noir légèrement plus clair */
+    border: 2px solid #ff6347; /* Bordure rouge */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Ombre légère */
+    color: #fff; /* Texte en blanc */
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ff6347; /* Titre en rouge */
+}
+
+.legal-info p {
+    margin-bottom: 1rem;
+    color: #fff; /* Texte en blanc */
+}
+
+.legal-info p strong {
+    color: #ff6347; /* Texte fort en rouge */
+}
+
+.legal-info a {
+    color: #ff6347; /* Liens en rouge */
+    text-decoration: none;
+}
+
+.legal-info a:hover {
+    text-decoration: underline;
+}

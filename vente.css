@@ -1,0 +1,190 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    background-color: #1d1d1d;
+    padding: 20px;
+    text-align: center;
+}
+ 
+header .company-name {
+    font-size: 2em;
+    color: #ff6347;
+    text-align: center;
+}
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+ 
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+ 
+section {
+    padding: 40px;
+    margin: 20px;
+}
+ 
+section .section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff6347;
+}
+ 
+/* Jeu Container */
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+ 
+.game-card {
+    background-color: #1c1c1c;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+ 
+.game-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+ 
+.game-info {
+    padding: 10px;
+}
+ 
+.game-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ff6347;
+}
+ 
+.game-summary {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+ 
+.game-price {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ff6347;
+}
+ 
+.more-info {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+ 
+.more-info:hover {
+    background-color: #ff4500;
+}
+ 
+/* Contact Section */
+.contact-info a {
+    color: #ff6347;
+}
+ 
+.contact-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+#social {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #111; /* Fond noir légèrement plus clair */
+    border: 2px solid #ff6347; /* Bordure rouge */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Ombre légère */
+    color: #fff; /* Texte en blanc */
+    text-align: center; /* Centrer le contenu */
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ff6347; /* Titre en rouge */
+}
+
+.social-links {
+    display: flex;
+    flex-direction:row ; /* Dispose les images horizontalement */
+    align-items: center;
+}
+
+.social-links a {
+    margin: 0.7rem 0; /* Marge entre les images */
+}
+
+.social-links img {
+    width: 50px; /* Largeur des images */
+    height: 50px; /* Hauteur des images */
+    transition: transform 0.5s; /* Transition pour l'effet au survol */
+    
+}
+
+.social-links img:hover {
+    transform: scale(1.1); /* Agrandit légèrement les images au survol */
+}
+
+#legal {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #111; /* Fond noir légèrement plus clair */
+    border: 2px solid #ff6347; /* Bordure rouge */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Ombre légère */
+    color: #fff; /* Texte en blanc */
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ff6347; /* Titre en rouge */
+}
+
+.legal-info p {
+    margin-bottom: 1rem;
+    color: #fff; /* Texte en blanc */
+}
+
+.legal-info p strong {
+    color: #ff6347; /* Texte fort en rouge */
+}
+
+.legal-info a {
+    color: #ff6347; /* Liens en rouge */
+    text-decoration: none;
+}
+
+.legal-info a:hover {
+    text-decoration: underline;
+}
