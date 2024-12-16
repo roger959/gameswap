@@ -19,6 +19,7 @@ header {
     text-align: center;
 }
 
+
 header nav ul {
     list-style-type: none;
     padding: 0;
@@ -52,6 +53,10 @@ section#exchange h2 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
     color: #ff6347; /* Rouge pour les titres */
+}
+
+h1 {
+    color: bisque;
 }
 
 form {

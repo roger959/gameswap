@@ -75,7 +75,14 @@ header nav ul li a:hover {
     margin-bottom: 1rem;
     color: #ff6347; /* Rouge pour les titres des sections */
 }
+#services .service h3 a {
+    color: white; /* Change la couleur du texte des liens en blanc */
+    text-decoration: none; /* Optionnel : enlève le soulignement si présent */
+}
 
+#services .service h3 a:hover {
+    color: #ccc; /* Optionnel : ajoute une couleur au survol */
+}
 .services-container {
     display: flex;
     justify-content: space-around;
@@ -95,6 +102,11 @@ header nav ul li a:hover {
     margin-bottom: 1rem;
     color: #ff6347; /* Rouge pour les titres des services */
 }
+
+#team p {
+    color: white; /* Change la couleur du texte en blanc */
+}
+
 
 .team-members {
     display: flex;
