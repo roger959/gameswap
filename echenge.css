@@ -55,9 +55,6 @@ section#exchange h2 {
     color: #ff6347; /* Rouge pour les titres */
 }
 
-h1 {
-    color: bisque;
-}
 
 form {
     display: flex;

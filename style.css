@@ -88,6 +88,38 @@ header nav ul li a:hover {
     justify-content: space-around;
 }
 
+    .team-members img {
+        width: 150px; /* Largeur souhaitée */
+        height: 150px; /* Hauteur souhaitée */
+        object-fit: cover; /* Ajuste l'image sans déformer */
+        border-radius: 50%; /* Rend les images rondes (optionnel) */
+    }
+   /* Conteneur de chaque membre */
+   .team-members .member {
+    position: relative; /* Pour positionner la bulle */
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style des images */
+.team-members img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Rend les images rondes */
+     padding: 15px;
+    box-shadow: 0px 0px 10px rgba(234, 67, 6, 0.5); /* Ombre rouge */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Animation fluide */
+}
+
+/* Animation au survol */
+.team-members img:hover {
+    transform: scale(1.1); /* Effet de zoom */
+    box-shadow: 0px 0px 20px rgba(234, 67, 6, 0.8); /* Ombre plus intense */
+}
+
+
 .service {
     background-color: #222; /* Noir légèrement plus clair pour les services */
     padding: 1rem;
