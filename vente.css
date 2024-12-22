@@ -61,7 +61,7 @@ section .section-title {
     width: 300px;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(234, 67, 6, 0.5); /* Ombre bleu ciel */
+    box-shadow: 0px 0px 10px rgba(234, 67, 6, 0.5); /* Ombre rouge */
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
