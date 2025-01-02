@@ -138,7 +138,13 @@ header nav ul li a:hover {
 #team p {
     color: white; /* Change la couleur du texte en blanc */
 }
-
+#team h3 a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    color: #ff6347;
+    font-size: 30px; /* Agrandit le texte à 20 pixels */
+}
 
 .team-members {
     display: flex;

@@ -29,11 +29,19 @@ header {
 header h1 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
+    color:#ff6347;
 }
 
 header a {
     text-decoration: none;
-
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    color: #ff6347;
+    
+        padding: 52px; /* Réduit la marge intérieure à 10 pixels */
+        padding-left: 5px; /* Réduit la marge intérieure à gauche */
+        padding-right: 5px; /* Réduit la marge intérieure à droite */
+      
 }
 
 header p {

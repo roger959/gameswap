@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: #111; /* Noir légèrement plus clair */
-    color: #fff; /* Blanc pour le texte du header */
+    color:#ff6347; /* Blanc pour le texte du header */
     padding: 1rem 0;
     text-align: center;
 }
