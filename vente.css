@@ -187,3 +187,14 @@ section .section-title {
     text-decoration: underline;
 }
  
+
+footer {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: #111; /* Noir légèrement plus clair */
+    color: #fff; /* Blanc pour le texte du footer */
+    text-align: center;
+    padding: 1rem 0;
+}

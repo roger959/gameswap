@@ -240,3 +240,14 @@ img {
 .legal-info a:hover {
     text-decoration: underline;
 }
+
+/* Pour les téléphones de 320px à 480px */
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+    #team h3 {
+      font-size: 18px;
+    }
+  }
+  
