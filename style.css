@@ -141,7 +141,7 @@ header nav ul li a:hover {
 #team h3 a {
     text-decoration: none;
     font-family: Arial, sans-serif;
-    text-transform: uppercase;
+    
     color: #ff6347;
     font-size: 30px; /* Agrandit le texte à 20 pixels */
 }
