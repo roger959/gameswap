@@ -15,48 +15,50 @@ body {
 
 /* Header */
 header {
-    background-color: #111; /* Noir légèrement plus clair pour le header */
-    color: #fff; /* Blanc pour le texte */
-    padding: 1.5rem 2rem; /* Ajuste l'espacement interne */
+    background-color: #111; /* Noir légèrement plus clair */
+    color: #fff; /* Blanc pour le texte du header */
+    padding: 1rem 2rem;
     display: flex;
-    justify-content: space-between; /* Espacement entre les éléments */
+    justify-content: space-between;
     align-items: center;
-    border: 3px solid #ff6347; /* Bordure rouge */
-    border-radius: 10px; /* Coins arrondis */
 }
 
-header h1 {
-    font-size: 2.5rem; /* Taille du titre */
-    margin: 0; /* Supprime l'espace vertical */
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espace entre le logo et le texte */
+}
+
+header .logo h1 {
+    font-size: 2rem;
     color: #ff6347; /* Rouge pour le titre */
-    text-transform: uppercase; /* Texte en majuscules */
-    font-weight: bold; /* Police en gras */
 }
 
-header a {
-    text-decoration: none; /* Supprime le soulignement */
-    font-family: Arial, sans-serif;
-    text-transform: uppercase; /* Texte en majuscules */
+header .logo p {
+    font-size: 1rem;
+    font-style: italic;
+    color: #fff; /* Blanc pour le sous-titre */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
     color: #ff6347; /* Rouge pour les liens */
-    font-size: 1rem; /* Taille du texte ajustée */
-    padding: 0.5rem 1rem; /* Espacement interne */
-    margin-left: 1rem; /* Ajoute un espace entre les liens */
-    border: 2px solid #ff6347; /* Bordure rouge autour des liens */
-    border-radius: 5px; /* Coins arrondis des liens */
-    transition: all 0.3s ease-in-out; /* Animation fluide pour les interactions */
-    background-color: transparent; /* Fond transparent pour les liens */
+    text-decoration: none;
+    font-size: 1rem;
 }
 
-header a:hover {
-    background-color: #ff6347; /* Rouge pour l'arrière-plan au survol */
-    color: #111; /* Noir pour le texte au survol */
+header nav ul li a:hover {
+    text-decoration: underline;
 }
 
-header p {
-    font-size: 1.2rem; /* Taille du texte */
-    color: #fff; /* Blanc pour le texte */
-    margin: 0; /* Supprime les marges par défaut */
-}
 
 /* Section équipe */
 #team {

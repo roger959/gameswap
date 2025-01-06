@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
+ 
 #legal {
     padding: 2rem;
     margin: 2rem 0;
@@ -26,41 +26,41 @@ body {
     max-width: 900px;
     width: 100%;
 }
-
+ 
 .legal-content {
     display: flex;
     align-items: center; /* Center content vertically */
     justify-content: space-between; /* Space between the image and text */
 }
-
+ 
 .legal-info {
     flex: 1; /* Occupy the remaining space */
 }
-
+ 
 .section-title {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #ff6347; /* Titre en rouge */
 }
-
+ 
 .legal-info p {
     margin-bottom: 1rem;
     color: #fff; /* Texte en blanc */
 }
-
+ 
 .legal-info p strong {
     color: #ff6347; /* Texte fort en rouge */
 }
-
+ 
 .legal-info a {
     color: #ff6347; /* Liens en rouge */
     text-decoration: none;
 }
-
+ 
 .legal-info a:hover {
     text-decoration: underline;
 }
-
+ 
 /* Image */
 img {
     width: 150px; /* Adjust the image size as needed */
@@ -68,31 +68,34 @@ img {
     margin-left: 20px; /* Space between the text and the image */
     border-radius: 4px;
 }
-
-/* Responsiveness */
-@media (max-width: 768px) {
-    .section-title {
-        font-size: 1.5rem;
-    }
-
-    #legal {
-        padding: 1.5rem;
-        margin: 1.5rem 0;
-    }
-
-    .legal-content {
-        flex-direction: column; /* Stack content vertically on smaller screens */
-        align-items: center;
-        text-align: center;
-    }
-
-    img {
-        margin-left: 0;
-        margin-top: 1rem; /* Adds some space when the image is above or below the text */
-    }
-
-    .legal-info {
-        margin-right: 0;
-        margin-bottom: 1rem;
-    }
+ 
+ 
+#legal {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.legal-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centre verticalement le contenu */
+}
+ 
+.legal-info {
+    flex: 1;
+    margin-right: 20px; /* Espace entre le texte et l'image */
+}
+ 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.image-container img {
+    max-width: 450px; /* Taille maximale en largeur agrandie */
+    max-height: 450px; /* Taille maximale en hauteur agrandie */
+    width: 100%; /* L'image occupe tout l'espace disponible en largeur */
+    height: auto; /* L'image garde ses proportions */
+    object-fit: cover; /* Ajuste l'image pour qu'elle remplisse l'espace sans déformation */
 }
